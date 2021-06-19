@@ -1,1 +1,2 @@
 # For-The-Record
+Level 7 software development class project. For The Record is a multi-tiered application suite, containing a self host API console application that connects to a hosted MySQL database, an album inventory management windows form application, an e-commerce music store universal windows form application. Programmed with the C# language, the .NET framework, and MySQL for external stored procedures.
