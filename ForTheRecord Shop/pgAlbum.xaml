@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="ForTheRecord_Shop.pgAlbum"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ForTheRecord_Shop"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="400" Height="322.25" Loaded="Page_Loaded">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="View Album Details" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="47,56,0,0" Text="Name:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="60"/>
+        <TextBlock HorizontalAlignment="Left" Margin="47,82,0,0" Text="Artist:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="60"/>
+        <TextBlock HorizontalAlignment="Left" Margin="47,108,0,0" Text="Genre:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="60"/>
+        <TextBlock HorizontalAlignment="Left" Margin="243,72,0,0" Text="Tracks:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="60"/>
+        <TextBlock HorizontalAlignment="Left" Margin="243,98,0,0" Text="Type:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="60"/>
+        <TextBlock x:Name="tbDiscsOrSides" HorizontalAlignment="Left" Margin="243,124,0,0" Text="Discs:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="60"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,211,0,0" Text="Price: $" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Width="60"/>
+        <TextBlock HorizontalAlignment="Left" Margin="239,211,0,0" Text="In Stock:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Width="69"/>
+        <TextBlock x:Name="tbAlbumName" HorizontalAlignment="Left" Margin="98,56,0,0" Text="Album Name" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="276"/>
+        <TextBlock x:Name="tbArtistName" HorizontalAlignment="Left" Margin="98,82,0,0" Text="Artist Name" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="140"/>
+        <TextBlock x:Name="tbGenre" HorizontalAlignment="Left" Margin="98,108,0,0" Text="Genre" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="140"/>
+        <TextBlock x:Name="tbTracks" HorizontalAlignment="Left" Margin="294,72,0,0" Text="00" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="140"/>
+        <TextBlock x:Name="tbType" HorizontalAlignment="Left" Margin="294,98,0,0" Text="Type" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="140"/>
+        <TextBlock x:Name="tbDiscsOrSidesAmount" HorizontalAlignment="Left" Margin="294,124,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="82"/>
+        <TextBlock x:Name="tbPrice" HorizontalAlignment="Left" Margin="105,212,0,0" Text="00.00" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Width="123"/>
+        <TextBlock x:Name="tbStock" HorizontalAlignment="Left" Margin="311,211,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Width="123"/>
+        <Button x:Name="btnBack" Content="Go Back" HorizontalAlignment="Left" Margin="243,261,0,0" VerticalAlignment="Top" Width="84" Click="BtnBack_Click"/>
+        <TextBlock x:Name="tbSingleOrLimited" HorizontalAlignment="Left" Margin="47,133,0,0" Text="Single:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="58"/>
+        <TextBlock x:Name="tbSingleOrLimitedBool" HorizontalAlignment="Left" Margin="108,133,0,0" Text="Yes" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="82"/>
+        <TextBlock x:Name="tbBoxSet" HorizontalAlignment="Left" Margin="47,154,0,0" Text="Box Set:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="59"/>
+        <TextBlock x:Name="tbBoxSetBool" HorizontalAlignment="Left" Margin="108,154,0,0" Text="Yes" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="82"/>
+
+
+    </Grid>
+</Page>

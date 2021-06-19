@@ -1,0 +1,4 @@
+Server=127.0.0.1;
+Database=sdv701;
+Uid=root;
+Pwd='P@ssword1'
